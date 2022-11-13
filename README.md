@@ -113,7 +113,7 @@ Return value - code error:
 - There are prefix "s21" before each function
 - Library functions have full coverage with unit-tests with the check.h library
 - Unit tests cover at least 90% of each function (checked using gcovr)
-- I use Makefile for building the library and tests (the targets: _all, clean, test, s21_decimal.a, gcov_report_) 
+- There is a Makefile for building the library and tests (the targets: _all, clean, test, s21_decimal.a, gcov_report_) 
 - Decimal implemented stick to the binary representation with the integer `bits` array. I observe the position of the digits of a number in the `bits` array.
 - I do not use the __int128 type
 - The defined type must support numbers from -79,228,162,514,264,337,593,543,950,335 to +79,228,162,514,264,337,593,543,950,335.
